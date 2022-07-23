@@ -44,25 +44,3 @@ void _ssort(int *a, int size, int n)
 	}
 	print_array(a, size);
 }
-				}
-				else
-					n = n + jump;
-			}
-		}
-		print_array(array, size);
-	}
-}
-
-/**
- * swap - function to swap elements
- * @a: 1st element
- * @b: 2nd element
- */
-void swap(int *a, int *b)
-{
-	int tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
